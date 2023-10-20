@@ -100,6 +100,9 @@ a:active{
   color: #e76f6f;
 }
 
+a[href^="external-link-52.png"]::after {
+  display: none;
+}
 
 ul, ol{
   margin: 10px 0;
