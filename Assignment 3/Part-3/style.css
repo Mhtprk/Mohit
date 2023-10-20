@@ -46,12 +46,12 @@ header, footer {
 
 @font-face {
   font-family: 'Serifont';
-  src: url('path-to-serif-font,woff2');
+  src: url('YoungSerif-Regular.ttf');
 }
 
 @font-face {
   font-family: 'SansSerifFont';
-  src: url('path-to-sans-serif-font.woff2');
+  src: url('YoungSerif-Regular.ttf');
 }
 
 body {
@@ -110,10 +110,29 @@ ul, ol{
   list-style: inside;
 }
 
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
 nav ul li {
-  border: #e76f6f;
+  border: 1px solid #e9b1b1;
+  display: block;;
   padding: 10px;
   text-align: center;
-  display: inline-block;
-  margin: 5px;
+  margin: 15px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  display: block;
+  color: #a66;
+  text-decoration: none;
+  padding: 10px;
+}
+
+p:first-of-type a::after{
+  content: url(external-link-edited.png);
+  vertical-align: middle;
+  margin-right: 0 5px;
 }
