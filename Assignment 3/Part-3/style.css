@@ -59,16 +59,50 @@ body {
   font-size: 10px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'SansSerifFont', sans-serif;
 }
 
-h1{
+h1 {
   text-align: center;
-  letter-spacing: normal;
+  letter-spacing: 1px;
 }
 
-h2, h3{
+h2, h3 {
   font-size: 1.5rem;
-  
+  letter-spacing: 0.5px;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  word-spacing: 2px;
+}
+
+section p:first-of-type {
+  text-indent: 20px;
+}
+
+a, a:visited, a:focus{
+  color: #a66;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:focus{
+  outline: none;
+}
+
+a:active{
+  color: #e76f6f;
+}
+
+
+ul, ol{
+  margin: 10px 0;
+  line-height: 1.5;
+  list-style: inside;
 }
