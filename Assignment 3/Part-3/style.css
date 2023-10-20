@@ -59,7 +59,7 @@ body {
   font-size: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'SansSerifFont', sans-serif;
 }
 
@@ -131,7 +131,7 @@ nav ul li a {
   padding: 10px;
 }
 
-p:first-of-type a::after{
+section p a::after{
   content: url(external-link-edited.png);
   vertical-align: middle;
   margin-right: 0 5px;
