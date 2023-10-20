@@ -109,3 +109,11 @@ ul, ol{
   line-height: 1.5;
   list-style: inside;
 }
+
+nav ul li {
+  border: #e76f6f;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
