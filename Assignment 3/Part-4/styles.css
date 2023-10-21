@@ -48,8 +48,20 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 1px;
   }
 
   .feature {
       width: 200px;
+  }
+
+  article{
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  aside{
+    width: 300px;
+    margin-left: 20px;
   }
