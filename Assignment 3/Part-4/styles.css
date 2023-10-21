@@ -22,6 +22,7 @@ body {
     padding: 0 20px;
     max-width: 980px;
     display: flex;
+    flex-wrap: wrap;
   }
   
   nav {
@@ -36,12 +37,16 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    gap: 11rem;
   }
   
   nav a {
+    float: left;
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
+    text-decoration: none;
   }
   
   .photos {
@@ -50,6 +55,7 @@ body {
     padding: 0;
     display: flex;
     gap: 1px;
+    flex-wrap: wrap;
   }
 
   .feature {
