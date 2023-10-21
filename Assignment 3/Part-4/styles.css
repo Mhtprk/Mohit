@@ -67,7 +67,19 @@ body {
     margin-right: 20px;
   }
 
+  article img.feature{
+    float: left;
+    margin-right: 20px;
+    width: 270px;
+  }
+
+  article p{
+    margin: 0 0 18px;
+  }
+
   aside{
     width: 300px;
     margin-left: 20px;
   }
+
+
