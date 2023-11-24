@@ -20,6 +20,18 @@ const alternativeTexts = {
 
 /* Looping through images */
 
+imageFilename.forEach(filename => {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', `images/${filename}`);
+    newImage.setAttribute('alt', alternativeTexts[filename]);
+    newImage.style.width = '20%';
+    newImage.addEventListener('click', () =>{
+        document.querySelector('.displayed-img').setAttribute('src', `images/${filename}`)
+        document.querySelector('.displayed-img').setAttribute('alt', alternativeTexts[filename]);
+    })   
+    thumbBar.appendChild(newImage); 
+});
+
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
 newImage.setAttribute('alt', xxx);
