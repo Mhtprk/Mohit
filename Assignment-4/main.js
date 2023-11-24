@@ -1,8 +1,8 @@
 // variable and function defenations 
 
 const customName = document.getElementById('customname');
-const randomize = document.querySelector('randomize');
-const story = document.querySelector('story');
+const randomize = document.querySelector('.randomize');
+const story = document.querySelector('.story');
 
 function randomValueFromArray(array) {
     const random = Math.floor(Math.random() * array.length);
@@ -36,6 +36,7 @@ const insertZ = [
 randomize.addEventListener('click', result);
 
 function result(){
+
     let newStory = storytext;
 
     const xItem = randomValueFromArray(insertX);
@@ -55,7 +56,7 @@ function result(){
     if(document.getElementById("uk").checked) {
         weight = Math.round(300 / 14);
         weight += 'stone';
-        temperature =  Math.round((94 - 32)) * (5/9);
+        temperature =  Math.round((94 - 32)) * (5 / 9);
         temperature += 'centigrade';
     }
 
