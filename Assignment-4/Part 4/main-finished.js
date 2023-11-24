@@ -201,3 +201,11 @@ function loop() {
 
      requestAnimationFrame(loop);
 }
+
+const ballCountDisplay = document.querySelector('p');
+let ballCount = balls.length;
+
+if (!balls.exists){
+   ballCount--;
+   ballCountDisplay.textContent = `Ball count: ${ballCount}`;
+}
