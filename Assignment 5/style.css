@@ -248,3 +248,12 @@ audio {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+
+img {
+  max-width: 100;
+  height: auto;
+}
+
+.show-hide {
+  cursor: pointer;
+}

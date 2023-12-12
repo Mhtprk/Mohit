@@ -45,3 +45,9 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+showHideBtn.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter' || event.key === '') {
+    showHideBtn.click();
+  }
+});
